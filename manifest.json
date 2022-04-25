@@ -1,0 +1,23 @@
+{
+    "name": "Starly",
+    "version": "1.0",
+    "description": "Extensão Oficial do Starly MusicPlayer",
+    "permissions": ["activeTab", "cookies", "storage"],
+    "background": {
+        "service_worker": "assets/js/script.js"
+    },
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "assets/img/starly16.png",
+        "32": "assets/img/starly32.png",
+        "48": "assets/img/Starly48.png",
+        "128": "assets/img/starly128.png"
+      },
+      "default_title": "Starly"
+    },"host_permissions": [
+        "*://*.balbucio.xyz/*",
+        "*://*.starly.xyz/*"
+    ],
+    "manifest_version": 3
+  }
