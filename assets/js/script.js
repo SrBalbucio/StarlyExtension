@@ -11,3 +11,7 @@ chrome.runtime.onInstalled.addListener(() => {
       console.log(call);
     });
   });
+  chrome.runtime.onSuspend.addListener(()=>{
+    console.log("Starly - Suspendendo atividade...")
+  });
+ 
