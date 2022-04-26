@@ -10,13 +10,13 @@
 </head>
 <body>
     <div class="main">
-        <p id="logo"><i class="fa fa-music"></i>Music</p>
+        <p id="logo"><i class="fa fa-music"></i>Starly</p>
       
       <!--- left part --->
        <div class="left">
   
         <!--- song img --->
-        <img id="track_image">
+        <img id="track_image" src="/assets/img/noMusic.jpg">
            <div class="volume">
               <p id="volume_show">90</p>
               <i class="fa fa-volume-up" aria-hidden="true" onclick="mute_sound()" id="volume_icon"></i>
@@ -44,13 +44,17 @@
                <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
                <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
                <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+               <button onclick="next_song()" id="next"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></i></button>
            </div>
   
          <!--- song duration part --->
           <div class="duration">
              <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
           </div>
-             <button id="auto" onclick="autoplay_switch()">Auto play <i class="fa fa-circle-o-notch" aria-hidden="true"></i></button>
+          <div class="info"><p>Powered by Balbucio.xyz</p></div>
+          <div class="info2"><p>Créditos, Termos e Política de Dados</p></div>
+          <div>
+          </div>
         </div>
   
   

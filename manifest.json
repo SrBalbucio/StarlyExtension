@@ -2,7 +2,7 @@
     "name": "Starly",
     "version": "1.0",
     "description": "Extensão Oficial do Starly MusicPlayer",
-    "permissions": ["activeTab", "cookies", "storage"],
+    "permissions": ["activeTab", "cookies", "storage", "management", "tabs"],
     "background": {
         "service_worker": "assets/js/script.js"
     },
